@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/ProximaNova-Regular.woff);
+    font-weight: 400;
+}
+
+/*font-family: 'Proxima Nova', sans-serif;*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    background-color: #162831;
+}
+
+.container{
+    max-width: 1316px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 50px;
+}
+
+.menu__list-link{
+    color:#fff;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn__link{
+    
+}
+
+.btn{
+    color:#fff;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    background-color: #018abe;
+    padding: 9px 15px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px 0 #000000;  
+}
